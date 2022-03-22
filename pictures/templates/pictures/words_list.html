@@ -1,1 +1,7 @@
-<h1>Hello World</h1>
+{% for i in object_list %}
+
+<li>{{ i.word }}</li>
+<li>{{ i.translation }}</li>
+<li>{{ i.studied }}</li>
+
+{% endfor %}
