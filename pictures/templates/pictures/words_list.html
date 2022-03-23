@@ -1,3 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+
 {% for i in object_list %}
 
 <li>{{ i.word }}</li>
@@ -5,3 +9,5 @@
 <li>{{ i.studied }}</li>
 
 {% endfor %}
+
+{% endblock %}
